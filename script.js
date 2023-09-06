@@ -103,7 +103,7 @@ const resume = {
       achievements: []
     },
   ],
-  photo: 'pic.jpg',
+  photo: 'pic.png',
 }
 
 const formatResume = (r) => ({

@@ -39,11 +39,30 @@ const resume = {
     'IBM Cognos',
     'HTML',
     'CSS',
-    'JavaScript'
+    'JavaScript',
+    'Original Research',
+    'Budget Development',
+    'Project Management',
   ],
   languages: ['English', 'Chinese'],
-  professionalSummary: `Artificial Intelligence interested Accountant with a history of Web development and supporting accounting activities accurate and efficiently for a diverse range of clientele. 2+ years of accounting experience in presenting data, analysing cost control, providing financial reports, and delivering profit and loss statements under time pressures. 1+ year of AI experience in early stage startups and front-end web developer.`,
+  professionalSummary: `Accountant with a history of accurately and efficiently supporting accounting activities for a diverse range of clientele. 2+ years of accounting experience in presenting data, analysing cost control, providing financial reports, and delivering profit and loss statements under time pressures.`,
   employmentHistory: [
+    {
+      jobTitle: 'Accountant (Full-time)',
+      startDate: 'October, 2021',
+      endDate: 'October, 2022',
+      employer: 'LING HANG YIN WU CO.LTD',
+      city: 'Shan Dong - China',
+      achievements: [
+        'Completed daily accounting tasks including tracking funds, preparing deposits and recording accounts with ERP system.',
+        'Collaborate with the finance team on yearly forecasting efforts.',
+        'Support the payment processing team.',
+        'Complied general ledger entries on a short schedule with nearly 100% accuracy.',
+        'Prepared month-end balance sheet reconciliations including but not limited to recording transcations, creating reports, tracking income, and checking expense figures for accuracy and legitimacy.',
+        'Monitor the status of transactions and coding structures to ensure alignment with company policy and guidelines.',
+        'Reviewed accounts payable and invoice listing to confirm validity and to conduct a budget update as necessary.'
+      ]
+    },
     {
       jobTitle: 'Junior Accountant (Internship)',
       startDate: 'March, 2021',
@@ -71,22 +90,6 @@ const resume = {
         'Produce profit and loss statements and other financial reports, including audit vendor list price.'
       ]
     },
-    {
-      jobTitle: 'Accountant (Full-time)',
-      startDate: 'October, 2021',
-      endDate: 'October, 2022',
-      employer: 'LING HANG YIN WU CO.LTD',
-      city: 'Shan Dong - China',
-      achievements: [
-        'Completed daily accounting tasks including tracking funds, preparing deposits and recording accounts with ERP system.',
-        'Collaborate with the finance team on yearly forecasting efforts.',
-        'Support the payment processing team',
-        'Complied general ledger entries on a short schedule with nearly 100% accuracy.',
-        'Prepared month-end balance sheet reconciliations including but not limited to recording transcations, creating reports, tracking income, and checking expense figures for accuracy and legitimacy.',
-        'Monitor the status of transactions and coding structures to ensure alignment with company policy and guidelines',
-        'Reviewed accounts payable and invoice listing to confirm validity and to conduct a budget update as necessary.'
-      ]
-    }
   ],
   achievements: [
     {
@@ -94,8 +97,13 @@ const resume = {
       date: 'August 2023',
       achievements: []
     },
+    {
+      title:'W3Schools',
+      date: 'March 2023',
+      achievements: []
+    },
   ],
-  photo: 'pic.png',
+  photo: 'pic.jpg',
 }
 
 const formatResume = (r) => ({
